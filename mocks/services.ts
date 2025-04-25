@@ -1,0 +1,58 @@
+import { Service } from '@/types';
+
+export const services: Service[] = [
+  {
+    id: '1',
+    name: 'Wash & Fold',
+    description: 'Regular laundry service with washing, drying, and folding',
+    icon: 'shirt',
+    pricePerUnit: 80,
+    unit: 'kg',
+    estimatedTime: 24,
+  },
+  {
+    id: '2',
+    name: 'Dry Cleaning',
+    description: 'Professional dry cleaning for delicate fabrics and formal wear',
+    icon: 'shirt',
+    pricePerUnit: 250,
+    unit: 'item',
+    estimatedTime: 48,
+  },
+  {
+    id: '3',
+    name: 'Ironing',
+    description: 'Professional ironing service for wrinkle-free clothes',
+    icon: 'shirt',
+    pricePerUnit: 20,
+    unit: 'item',
+    estimatedTime: 24,
+  },
+  {
+    id: '4',
+    name: 'Bedding & Linen',
+    description: 'Cleaning service for bedsheets, pillowcases, and other linens',
+    icon: 'bed',
+    pricePerUnit: 150,
+    unit: 'item',
+    estimatedTime: 48,
+  },
+  {
+    id: '5',
+    name: 'Express Service',
+    description: 'Same-day service for urgent laundry needs',
+    icon: 'zap',
+    pricePerUnit: 120,
+    unit: 'kg',
+    estimatedTime: 6,
+  },
+  {
+    id: '6',
+    name: 'Stain Removal',
+    description: 'Specialized treatment for tough stains',
+    icon: 'droplets',
+    pricePerUnit: 100,
+    unit: 'item',
+    estimatedTime: 48,
+  },
+];
